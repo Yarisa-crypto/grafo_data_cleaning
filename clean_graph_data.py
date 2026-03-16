@@ -15,3 +15,4 @@ def clean_graph(file):
 if __name__ == "__main__":
     data = clean_graph("data.csv")
     print(data.head())
+    print("Graph cleaning module loaded")
